@@ -28,12 +28,13 @@
 
 <body>
     <div id="navbar">
+        <img id="logo" alt="jovian logo" src="https://i.imgur.com/JRA5Q8a.png" height="16px">
         <img src="https://th.bing.com/th/id/R.ab07e5e412201e2813d7c6eb6b8c294c?rik=EPnkBr7OhXxRVw&pid=ImgRaw&r=0.png"
-            alt="logo" id="logo">
+            alt="logo-with-text" id="logo-with-text" height="30px">
     </div>
 
-    <img id="banner" src="career.jpg" alt="banner" height="240" />
-    <h1>Welcome to our Jovian webpage</h1>
+    <img id="banner" src="career.jpg" alt="banner" />
+    <h1>About Jovian</h1>
 
     <div id="about">
         <div id="description">
@@ -62,6 +63,34 @@
 
     <h2>Job Opportunities</h2>
     <div id="jobs">
+
+        <div id="jobs-list">
+            <div class="job">
+                <div class="job-title">Frontend Developer</div>
+                <div class="job-detail">Taplejung, Nepal</div>
+                <div class="job-detail">Rs.59,000</div>
+                <div class="job-detail">2080/09/01</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Backend Developer</div>
+                <div class="job-detail">Phungling M., Nepal</div>
+                <div class="job-detail">Rs.59,000</div>
+                <div class="job-detail">2080/09/01</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Data Scientist</div>
+                <div class="job-detail">Jhapa, Nepal</div>
+                <div class="job-detail">Rs.70,000</div>
+                <div class="job-detail">2080/09/01</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Network Analyst</div>
+                <div class="job-detail">Rural Area</div>
+                <div class="job-detail">Rs.99,000</div>
+                <div class="job-detail">2080/09/01</div>
+            </div>
+        </div>
+
         <table id="jobs-table">
             <tr class="jobs-header-row">
                 <th rowspan="2">Job Title</th>
@@ -152,12 +181,13 @@
 
             <div class="form-group">
                 <label for="terms">
-                    <input type="checkbox" required id="terms" name="terms">I agree to the terms and conditions</label>
+                    <input type="checkbox" required id="terms" name="terms">I agree to the terms and conditions.
+                </label>
+            </div>
 
-
-                <div class="form-group">
-                    <input type="submit" value="submit application">
-                </div>
+            <div class="form-group">
+                <input type="submit" value="submit application">
+            </div>
 
         </form>
 
